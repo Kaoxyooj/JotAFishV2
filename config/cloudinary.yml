@@ -1,19 +1,19 @@
 ---
 development:
-  cloud_name: rentapp
-  api_key: '834633977881291'
-  api_secret: Q11RAIP6TdssH2T89vFWZTsFN0Q
+  cloud_name: kaoxyooj
+  api_key: '318337662641147'
+  api_secret: oimZ-Mv1OtnZefqObzP4j2cmEt4
   enhance_image_tag: true
   static_image_support: false
 production:
-  cloud_name: rentapp
-  api_key: '834633977881291'
-  api_secret: Q11RAIP6TdssH2T89vFWZTsFN0Q
+  cloud_name: kaoxyooj
+  api_key: '318337662641147'
+  api_secret: oimZ-Mv1OtnZefqObzP4j2cmEt4
   enhance_image_tag: true
   static_image_support: true
 test:
-  cloud_name: rentapp
-  api_key: '834633977881291'
-  api_secret: Q11RAIP6TdssH2T89vFWZTsFN0Q
+  cloud_name: kaoxyooj
+  api_key: '318337662641147'
+  api_secret: oimZ-Mv1OtnZefqObzP4j2cmEt4
   enhance_image_tag: true
   static_image_support: false
