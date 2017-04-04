@@ -27,5 +27,5 @@
 
 #ignore images
 /public/system/*
-/config/cloudinary.yml
+/config/*.yml
 
