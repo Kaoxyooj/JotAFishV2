@@ -27,5 +27,5 @@
 
 #ignore images
 /public/system/*
-config/*.yml
+#config/*.yml
 
