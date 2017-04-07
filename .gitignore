@@ -27,5 +27,6 @@
 
 #ignore images
 /public/system/*
+.DS_Store
 config/*.yml
 
