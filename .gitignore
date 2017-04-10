@@ -27,5 +27,9 @@
 
 #ignore images
 /public/system/*
+<<<<<<< HEAD
+.DS_Store
+=======
+>>>>>>> b6a15fb877664a4b4efa19c38240708157689e51
 #config/*.yml
 
