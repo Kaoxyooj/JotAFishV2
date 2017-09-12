@@ -401,7 +401,7 @@ DEPENDENCIES
   font-awesome-sass
   gibbon
   guard-cucumber
-  guard-rspec (~> 4.6.4)
+  guard-rspec
   haml-rails
   happy_seed
   jbuilder (~> 2.5)
@@ -422,8 +422,8 @@ DEPENDENCIES
   rails_12factor
   rdiscount
   responders (~> 2.0)
-  rspec (~> 3.5.0)
-  rspec-rails (~> 3.5.0)
+  rspec
+  rspec-rails
   sass-rails (~> 5.0)
   simple_form
   spring-commands-cucumber
@@ -436,4 +436,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   1.13.6
+   1.15.3

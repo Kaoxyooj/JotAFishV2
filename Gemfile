@@ -5,7 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
 
@@ -33,32 +32,24 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
-end
-
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  gem 'happy_seed'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-group :development do
-  gem 'happy_seed'
-end
-
-gem 'haml-rails'
 group :development, :test do
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', platform: :mri
   gem 'sqlite3'
-  gem 'rspec', '~> 3.5.0'
-  gem 'rspec-rails', '~> 3.5.0'
+  gem 'rspec'
+  gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'capybara'
-  gem 'cucumber-rails', branch: 'rails-5', require: false
-  gem 'guard-rspec', '~> 4.6.4', require: false
+  gem 'guard-rspec'
   gem 'guard-cucumber'
   gem 'database_cleaner'
   gem 'spring-commands-rspec'
@@ -74,6 +65,7 @@ group :development, :test do
 end
 
 group :test do
+  gem 'cucumber-rails'
   gem 'webmock'
   gem 'fakeredis', require: 'fakeredis/rspec'
 end
@@ -85,6 +77,7 @@ group :production do
 end
 
 gem 'bootstrap-sass'
+gem 'haml-rails'
 gem 'modernizr-rails'
 gem 'meta-tags', require: 'meta_tags'
 gem 'responders', '~> 2.0'
