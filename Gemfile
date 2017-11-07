@@ -6,24 +6,24 @@ git_source(:github) do |repo_name|
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.1'
+gem 'rails', '~> 5.1.4'
 
 
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
@@ -34,8 +34,8 @@ gem 'jbuilder', '~> 2.5'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
-  gem 'happy_seed'
+  gem 'web-console'
+  # gem 'happy_seed'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -45,9 +45,9 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'sqlite3'
-  gem 'rspec'
-  gem 'rspec-rails'
-  gem 'factory_girl_rails'
+  # gem 'rspec'
+  # gem 'rspec-rails'
+  # gem 'factory_girl_rails'
   gem 'capybara'
   gem 'guard-rspec'
   gem 'guard-cucumber'
@@ -57,9 +57,9 @@ group :development, :test do
   gem 'launchy'
   gem 'vcr'
   gem 'faker'
-  gem 'dotenv-rails'
+  # gem 'dotenv-rails'
   gem 'rdiscount'
-  gem 'rails-controller-testing'
+  # gem 'rails-controller-testing'
   gem 'better_errors'
   gem 'binding_of_caller'
 end
@@ -80,12 +80,12 @@ gem 'bootstrap-sass'
 gem 'haml-rails'
 gem 'modernizr-rails'
 gem 'meta-tags', require: 'meta_tags'
-gem 'responders', '~> 2.0'
+gem 'responders'
 gem 'bh'
 gem 'simple_form'
 gem 'premailer-rails'
 gem 'nokogiri'
-gem 'devise', '~> 4.2'
+gem 'devise'
 gem 'cancancan'
 gem 'paperclip'
 gem 'masonry-rails'
