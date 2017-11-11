@@ -5,49 +5,48 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 
-
-# Use Puma as the app server
-gem 'puma'
-# Use SCSS for stylesheets
-gem 'sass-rails'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier'
-# Use CoffeeScript for .coffee assets and views
+gem 'acts_as_votable'
+gem 'bcrypt'
+gem 'bh'
+# gem 'bootstrap'
+gem 'bootstrap-sass'
+gem 'cancancan'
+gem 'cloudinary'
 gem 'coffee-rails'
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
-
-# Use jquery as the JavaScript library
-gem 'jquery-rails'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'devise'
+gem 'font-awesome-sass'
+gem 'gibbon'
+gem 'haml-rails'
 gem 'jbuilder'
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 3.0'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'jquery-rails'
+gem 'masonry-rails'
+gem 'meta-tags', require: 'meta_tags'
+gem 'modernizr-rails'
+gem 'nokogiri'
+gem 'paperclip'
+gem 'paperclip-cloudinary'
+gem 'premailer-rails'
+gem 'puma'
+gem 'responders'
+gem 'sass-rails'
+gem 'simple_form'
+gem 'uglifier'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 
 group :development do
-  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
-  # gem 'happy_seed'
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'sqlite3'
-  # gem 'rspec'
-  # gem 'rspec-rails'
-  # gem 'factory_girl_rails'
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'factory_bot'
   gem 'capybara'
   gem 'guard-rspec'
   gem 'guard-cucumber'
@@ -57,9 +56,9 @@ group :development, :test do
   gem 'launchy'
   gem 'vcr'
   gem 'faker'
-  # gem 'dotenv-rails'
+  gem 'dotenv-rails'
   gem 'rdiscount'
-  # gem 'rails-controller-testing'
+  gem 'rails-controller-testing'
   gem 'better_errors'
   gem 'binding_of_caller'
 end
@@ -76,21 +75,5 @@ group :production do
   gem 'lograge'
 end
 
-gem 'bootstrap-sass'
-gem 'haml-rails'
-gem 'modernizr-rails'
-gem 'meta-tags', require: 'meta_tags'
-gem 'responders'
-gem 'bh'
-gem 'simple_form'
-gem 'premailer-rails'
-gem 'nokogiri'
-gem 'devise'
-gem 'cancancan'
-gem 'paperclip'
-gem 'masonry-rails'
-gem 'acts_as_votable'
-gem 'gibbon'
-gem 'font-awesome-sass'
-gem 'paperclip-cloudinary'
+
 # gem 'unsplash'

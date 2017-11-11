@@ -15,7 +15,8 @@
 //= require jquery.cycle.all
 //= require jquery.easing.1.3
 //= require jquery.maximage.min
-//= require custom
 //= require bootstrap-sprockets
+//= require custom
 //= require masonry/jquery.masonry
 //= require masonry/box-maker
+
